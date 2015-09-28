@@ -534,7 +534,7 @@ footer p {
     }
 
     article#contactme p {
-        margin: 0 auto 13em;
+        margin: 0 auto 4em;
     }
     article#contactme{
         width: 100%;
@@ -585,10 +585,10 @@ footer p {
     article#contactme{
         width: 100%;
         height: auto;
-        margin-bottom: 10em;
+        margin-bottom: 7em;
     }
     article#contactme p {
-        margin: 0 auto 13em;
+        margin: 0 auto 4em;
     }
     
  
@@ -642,7 +642,7 @@ footer p {
         
     }
     article#contactme p {
-        margin: 0 auto 4em;
+        margin: 0 auto;
     }
     article#contactme{
         width: 100%;
