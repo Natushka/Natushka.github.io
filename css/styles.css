@@ -541,6 +541,10 @@ footer p {
         height: auto;
         margin-bottom: 10em;
     }
+    article#contactme h3{
+        font-size: 2em;
+
+    }
 }
 
 @media only screen and (max-width:480px) {
@@ -590,7 +594,10 @@ footer p {
     article#contactme p {
         margin: 0 auto 4em;
     }
-    
+    article#contactme h3{
+        font-size: 2em;
+
+    }
  
     .Linkedin a {
         margin: -70px 0 0 23px;
@@ -641,6 +648,10 @@ footer p {
         line-height: 1.3em;
         
     }
+    .about h3{
+        font-size: 1.6em;
+
+    }
     article#contactme p {
         margin: 0 auto;
     }
@@ -648,6 +659,10 @@ footer p {
         width: 100%;
         height: auto;
         margin-bottom: 10em;
+    }
+    article#contactme h3{
+        font-size: 2em;
+
     }
     .Linkedin a {
         background-size: 60%;     
