@@ -278,31 +278,6 @@ article {
   float:left;
 }
 
-
-article#home{
-    background:white;
-    height: 80em;
-      
-}
-.cuadro{
-    width: 96%;
-    height: 58%;
-    margin: 16em 0 0 0;
-}
-article#home h2 {
-    float: left;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 5em;
-    width: 61%;
-    clear: both;
-    margin: 2em 0 0em 3em;
-}
-article#home h2 span {
-    float: right;
-    font-size: 1em;
-    color: black;
-}
-
   article#aboutme {
     background:url(../images/fondoyo.jpg)center no-repeat;
     background-size:100% auto;
