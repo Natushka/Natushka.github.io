@@ -536,10 +536,11 @@ footer p {
     article#contactme p {
         margin: 0 auto 13em;
     }
-    article#contactme {
-        text-align: center;
+    article#contactme{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10em;
     }
-
 }
 
 @media only screen and (max-width:480px) {
@@ -581,20 +582,15 @@ footer p {
     line-height: 1.2em;    
     }
 
-
+    article#contactme{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10em;
+    }
     article#contactme p {
         margin: 0 auto 13em;
     }
-    article#contactme {
-        text-align: center;
-    }
-    article#contactme .contenedorc {
-        margin: -20em auto 30em;
-        width: 80%;
-    }
-    article#contactme form {
-        width: 80%;
-    }
+    
  
     .Linkedin a {
         margin: -70px 0 0 23px;
@@ -634,9 +630,7 @@ footer p {
         width: 100%;
     }
 
-    article#contactme p {
-        margin: 0 auto 13em;
-    }
+ 
 
     article#aboutme{
         width: 100%;
@@ -647,7 +641,14 @@ footer p {
         line-height: 1.3em;
         
     }
-
+    article#contactme p {
+        margin: 0 auto 4em;
+    }
+    article#contactme{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10em;
+    }
     .Linkedin a {
         background-size: 60%;     
         margin: -111px 0 0 23px;
