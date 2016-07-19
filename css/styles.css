@@ -278,7 +278,7 @@ header {
     }
 
   article#aboutme {
-    background:url(../images/natush.jpg)center no-repeat;
+    background:#EFAC26;
     background-size: 100% 100%;
     height:73em;
     background-attachment: fixed;
@@ -340,7 +340,7 @@ header {
 }
 
 article#mywork {
-    background: #ACACAD;
+    background: #F1E7DD;
     background-size: 100% auto;
     height: auto;
     width: 100%;
@@ -360,7 +360,7 @@ article#mywork {
 
 }
 article#contactme {
-    background:white;
+    background: #D6D1C8;
     text-align: center;
     height: 50em;
     width: 100%;
