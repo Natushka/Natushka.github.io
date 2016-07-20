@@ -229,16 +229,17 @@ header {
 }
     h1#logo,
     h1#logo a {
-        width: 312px;
+        width: 387px;
         margin-left: 20px;
-        height: 76px;
-        margin-top: 10px;
+        height: 62px;
+        margin-top: 20px;
     }
     
         h1#logo {
             background-image: url(../images/logo.png);
             background-repeat: no-repeat;
-            background-size: 278px 74px;
+            background-size: 235px 54px;
+            display: inline-block;
         }
         
         h1#logo a {
@@ -255,25 +256,29 @@ header {
     header nav {
         float:right;
     }
-    
+        header nav ul{
+            margin: 11px 6px 6px 6px;
+        }
+
         header nav ul,
         header nav ul li {
             float:left;
         }
         
        header nav ul li a {
-            font-family: 'Raleway', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 500;
             font-size: 1.6em;
             padding: 1.8em;
             display:block;
-            color: black;
+            color: #E35959;
         }
         
         header nav ul li a:hover,
         header nav ul li a.current-item{
             color:white;
             font-size: 1.6em;
-            background:#02918c; 
+            background:#E35959; 
         }
 /* aside */ 
   article {
@@ -281,7 +286,7 @@ header {
     }
 
   article#aboutme {
-    background:#EFAC26;
+    background:#DCF8EE;
     background-size: 100% 100%;
     height:73em;
     background-attachment: fixed;
@@ -295,7 +300,7 @@ header {
     font-size:3.9em;
   }
   article#aboutme p b {
-    color: #F2E33C;
+    color: #FF9182;
   }
 
   article#mywork h2,
@@ -303,7 +308,7 @@ header {
 
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    color:#02918C;
+    color:#E35959;
     line-height:2em;
     font-size:3.9em;
     margin: 1.8em 0 2.6em;
@@ -313,7 +318,7 @@ header {
   article#aboutme p {
     font-family: 'Open Sans', sans-serif;
     width:60%;
-    color:white;
+    color: #A3B4AF;
     font-size: 2.6em;
     line-height: 1.5em;
     padding: 11em 0 0 3em;
@@ -339,13 +344,13 @@ header {
     width: 50%;
 }
 .about h3 b{
-    color:#e8c667; 
+    color:#FF9182; 
 }
 
 article#mywork {
     background: #F1E7DD;
     background-size: 100% auto;
-    height: auto;
+    height: 600px;
     width: 100%;
     padding-bottom: 3em;
 
@@ -363,16 +368,22 @@ article#mywork {
 
 }
 article#contactme {
-    background: #D6D1C8;
+    background: #fff;
     text-align: center;
     height: 50em;
     width: 100%;
+}
+article#contactme a{
+    color: #B5094C;
+}
+article#contactme a:hover{
+    color: #730031;
 }
 article#contactme h3{
     font-size: 3em;
 }
 article#contactme p {
-    color: black;
+    color: #A3B4AF;
     display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-size: 2em;
@@ -384,7 +395,7 @@ article#contactme p {
 }
 
 article#contactme p b{
-    color:#02918c;
+    color:#FF9182;
      
 }
 
@@ -392,14 +403,14 @@ article#contactme p b{
 article#social_network {
     display:inline-block; 
     text-align: center; 
-    
+    background-color: #fff,
 
 }
 article#social_network a{
 
-    border: 2px solid #02918C;
+    border: 2px solid #730031;
     border-radius: 50%;
-    color: #02918C;
+    color: #730031;
     font-size: 2em;
     display: inline-block;
     height: 50px;
@@ -415,6 +426,7 @@ article#social_network a{
 /*footer*/
 
 footer {
+    background-color: #fff;
     background-size: 100% auto;
     height: 4em;
 }
